@@ -1,0 +1,1 @@
+##Eamcs-like key binding
