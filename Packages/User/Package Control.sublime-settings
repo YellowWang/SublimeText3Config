@@ -1,0 +1,13 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Git",
+		"Package Control",
+		"SideBarEnhancements",
+		"Theme - Soda"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"soda_folder_icons": true,
+	"theme": "Soda Dark.sublime-theme"
+}
