@@ -1,0 +1,36 @@
+{
+	 // High visibility style and color for high visibility mode
+    // (solid|outline|underline)
+    // ST3 has additional options of (thin_underline|squiggly|stippled)
+    "high_visibility_style": "thin_underline",
+
+    // Show brackets in the minimap.
+    // Depending on your highlight style, regions may not be visible in minimap.
+    // "underline" won't show up due to it being a style consisting of
+    // multiple zero width selections to create a fat underline.
+    // But the following styles should show up fine as they are normal regions styles:
+    //     - thin_underline
+    //     - solid
+    //     - outline
+    //     - squiggly
+    //     - stippled
+    "show_in_minimap": true,
+
+
+    "user_brackets": [
+    	// lua conditional statements
+        {
+            "name": "lua",
+            //"open": "((?:(?<=^)|(?<==))\\s*\\b(?:if|begin|case)\\b|^\\s*\\b(?:for|until|unless|while|class|module|def\\b[\\p{Ll}\\p{Lu}]*)|\\bdo)\\b",
+            //"close": "(?<=[\\s;])(end)\\b(?!:)",
+            "open" : "if",
+            "close" : "end",
+            "style": "default",
+            "scope_exclude": ["string", "comment"],
+            "plugin_library": "bh_modules.rubykeywords",
+            "language_filter": "whitelist",
+            "language_list": ["Ruby", "RSpec", "Ruby on Rails"],
+            "enabled": true
+        },
+    ],
+}

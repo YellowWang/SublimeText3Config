@@ -5,9 +5,12 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"Color Highlighter",
 		"Git",
 		"Package Control",
 		"SideBarEnhancements",
-		"Theme - Soda"
+		"Theme - Soda",
+		"Unity3D Shader Highlighter and Snippets",
+		"WordHighlight"
 	]
 }
